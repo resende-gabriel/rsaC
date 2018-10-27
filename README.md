@@ -1,7 +1,7 @@
 # rsaC
 RSA encryption algorithm in C
 
-# 1 Introdução
+## 1 Introdução
 
   O objetivo deste trabalho é implementar algoritmos em C capazes de codificar e decodificar
 uma mensagem dentro de uma imagem utilizando técnicas de criptografia e esteganografia.
