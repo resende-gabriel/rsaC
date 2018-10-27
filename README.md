@@ -16,14 +16,14 @@ Esta será feita em uma imagem de formato ppm. Cada caractere da mensagem cripto
 escondido nos bits menos significativos dos canais de cor de 3 pixels.
 
 
-# 2 Criptografia
+## 2 Criptografia
 
   O RSA consiste em uma cifra utilizando chave pública, ou seja, qualquer um pode cifrar mensagens
 usando a chave pública. Porém, para decifrar uma mensagem, é necessário ter a chave
 privada, e ter a chave pública não ajuda a descobrir a chave privada.
 
 
-# 3 Esteganografia
+## 3 Esteganografia
 
   Para esteganografia, será usada uma imagem qualquer no formato ppm. Cada pixel da imagem
 contém 3 valores RGB, que representam as cores vermelho, verde e azul para o pixel. Esses valores
@@ -33,7 +33,7 @@ para cada um serão usados 3 pixels (com 3 canais de cor cada). A alteração vi
 muito baixa, pois irá alterar no máximo 1 unidade no valor de um canal de cor.
 
 
-# 4 Implementação
+## 4 Implementação
 
   Foi desenvolvido um algoritmo para criptografar e esconder a mensagem criptografada em uma
 imagem; e outro algoritmo para identificar a mensagem na imagem e descriptografar a mesma.
